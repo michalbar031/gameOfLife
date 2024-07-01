@@ -17,12 +17,39 @@ To set up the environment and run the project, follow these steps:
 Clone the repository using:
 ```sh
 git clone https://github.com/michalbar031/gameOfLife.git
+```
 Change directory to:
 ```sh
 cd gameOfLife
-
+```
 ### 2. Create the Conda Environment
 ```sh
 conda env create -f environment.yml
+```
+then activate it:
+```sh
 conda activate gameOfLife
+```
 
+### 3. Run the Pygame Implementation
+In this implementation:
+1. The grid size is 40x40.
+2. The cell size is 15 pixels.
+3. You can click on cells to toggle them alive or dead even during the simulation.
+4. Press the "Start" button to start or stop the simulation.
+
+You can run this implementation using:
+```sh
+python UI_pygame.py
+```
+
+### 4. Run the Basic Implementation
+In this implementation:
+1. The grid size is 40x40.
+2. The simulation runs for 100 generations.
+3. Initial alive cells are specified in the alive_init list.
+   
+You can run the basic implementation using:
+```sh
+python main_basic.py
+```
