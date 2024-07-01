@@ -35,14 +35,20 @@ conda activate gameOfLife
 ```
 
 ## 3. Run the Pygame Implementation
-<img align="right" width="420" height="600" src="https://github.com/michalbar031/gameOfLife/assets/81368958/51036b4e-f95f-4b2c-bcb6-861b1ec59101">
+<img align="right" width="340" height="470" src="https://github.com/michalbar031/gameOfLife/assets/81368958/51036b4e-f95f-4b2c-bcb6-861b1ec59101">
 
 In this implementation:
 
 1. The grid size is 40x40.
+   to change it you can modify n:
+   ```python
+   n = 40  # the grid size
+   ```
 2. The cell size is 15 pixels.
-3. You can click on cells to toggle them alive or dead even during the simulation.
-4. Press the "Start" button to start or stop the simulation.
+3. ```alive_init``` is a list of tuples where each tuple represents the coordinates of a cell that should be alive at the start of the simulation.
+   This list is used to initialize the grid with a specific configuration of alive cells. When running the simulation the user can update them. 
+4. You can click on cells to toggle them alive or dead even during the simulation.
+5. Press the "Start" button to start or stop the simulation.
 
 You can run this implementation using:
 ```sh
