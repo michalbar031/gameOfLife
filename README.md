@@ -15,5 +15,5 @@ To set up the environment and run the project, follow these steps:
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/game-of-life.git
+git clone https://github.com/michalbar031/gameOfLife.git
 cd game-of-life
